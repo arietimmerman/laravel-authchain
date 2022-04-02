@@ -23,7 +23,7 @@
         "sdboyer/gliph": "^0.7.0",
         "defuse/php-encryption": "^2.1",
         "moontoast/math": "^1.1",
-        "lcobucci/jwt": "^3.2"
+        "lcobucci/jwt": "^4.1"
     },
     "classmap": [
         "database/migrations"
