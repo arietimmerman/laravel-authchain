@@ -103,7 +103,7 @@ class ModuleList implements \JsonSerializable, \ArrayAccess, \Countable
         return $has;
     }
 
-    public function jsonSerialize()
+    public function jsonSerialize() : array
     {
         // ensure return as a non-associative array
         return array_values($this->modules);

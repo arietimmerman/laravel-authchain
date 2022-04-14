@@ -212,7 +212,7 @@ class Subject implements \JsonSerializable, SubjectInterface
         return $this->typeIdentifier;
     }
 
-    public function jsonSerialize()
+    public function jsonSerialize() : array
     {
         return [
             'uuid' => $this->uuid,

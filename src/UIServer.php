@@ -32,7 +32,7 @@ class UIServer implements \JsonSerializable
         return $this->origins;
     }
 
-    public function jsonSerialize()
+    public function jsonSerialize() : array
     {
         return [
             'origins' => $this->origins,

@@ -457,7 +457,7 @@ class State implements \JsonSerializable, Jsonable
         return $this;
     }
 
-    public function jsonSerialize()
+    public function jsonSerialize() : array
     {
         return $this->toArray();
     }

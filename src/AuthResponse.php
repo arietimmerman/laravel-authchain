@@ -110,7 +110,7 @@ class AuthResponse implements \JsonSerializable
             'client'   => $this->client
         ];
     }
-    public function jsonSerialize()
+    public function jsonSerialize() : array
     {
         return $this->toArray();
     }

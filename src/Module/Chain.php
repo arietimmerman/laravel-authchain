@@ -16,7 +16,7 @@ class Chain implements \JsonSerializable
         $this->to = $to;
     }
 
-    public function jsonSerialize()
+    public function jsonSerialize() : array
     {
         return [
             'to' => $this->to,

@@ -30,7 +30,7 @@ class Client implements \JsonSerializable
      */
     protected $policyUri;
 
-    public function jsonSerialize()
+    public function jsonSerialize() : array
     {
         return "";
     }

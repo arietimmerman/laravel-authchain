@@ -263,7 +263,7 @@ class Module extends Model implements ModuleInterface, \JsonSerializable
      *
      * WARNING: this is a serialization of the ModuleExecution
      */
-    public function jsonSerialize()
+    public function jsonSerialize() : array
     {
         $result = [
             'id' => $this->getIdentifier(),

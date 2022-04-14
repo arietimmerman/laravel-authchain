@@ -10,20 +10,20 @@
         }
     ],
     "require": {
-		"php": "^7.0",
-        "illuminate/auth": "^7.0|^8.0",
-        "illuminate/console": "^7.0|^8.0",
-        "illuminate/container": "^7.0|^8.0",
-        "illuminate/contracts": "^7.0|^8.0",
-        "illuminate/database": "^7.0|^8.0",
-        "illuminate/encryption": "^7.0|^8.0",
-        "illuminate/hashing": "^7.0|^8.0",
-        "illuminate/http": "^7.0|^8.0",
-        "illuminate/support": "^7.0|^8.0",
+		"php": ">7",
+        "illuminate/auth": "^7.0|^8.0|^9.0",
+        "illuminate/console": "^7.0|^8.0|^9.0",
+        "illuminate/container": "^7.0|^8.0|^9.0",
+        "illuminate/contracts": "^7.0|^8.0|^9.0",
+        "illuminate/database": "^7.0|^8.0|^9.0",
+        "illuminate/encryption": "^7.0|^8.0|^9.0",
+        "illuminate/hashing": "^7.0|^8.0|^9.0",
+        "illuminate/http": "^7.0|^8.0|^9.0",
+        "illuminate/support": "^7.0|^8.0|^9.0",
         "sdboyer/gliph": "^0.7.0",
         "defuse/php-encryption": "^2.1",
         "moontoast/math": "^1.1",
-        "lcobucci/jwt": "^3.2"
+        "lcobucci/jwt": "^4"
     },
     "classmap": [
         "database/migrations"
@@ -38,7 +38,6 @@
     },
     "require-dev": {
         "orchestra/testbench": "^5.0",
-        "fzaninotto/faker": "^1.7",
         "squizlabs/php_codesniffer": "^3.2"
     },
     

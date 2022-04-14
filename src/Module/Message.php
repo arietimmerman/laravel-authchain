@@ -41,7 +41,7 @@ class Message implements \JsonSerializable
         return $result;
     }
 
-    public function jsonSerialize()
+    public function jsonSerialize() : array
     {
         return [
             'type' => $this->type,

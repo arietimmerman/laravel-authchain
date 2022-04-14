@@ -107,7 +107,7 @@ class AuthLevel implements AuthLevelInterface
         return $result;
     }
     
-    public function jsonSerialize()
+    public function jsonSerialize() : array
     {
         return [
             'type' => $this->type,

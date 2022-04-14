@@ -64,7 +64,7 @@ class ModuleResultList implements \JsonSerializable, \ArrayAccess
         return $result;
     }
 
-    public function jsonSerialize()
+    public function jsonSerialize() : array
     {
         return $this->moduleResults;
     }
